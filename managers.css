@@ -51,7 +51,7 @@ font-weight: 500;
 .results_container{
 margin-top: 50px;
 margin-right: 40px;
-line-height: 50px;
+line-height: 70px;
 font-size: 35px;
 font-weight: 800;
 }
@@ -64,7 +64,8 @@ color: #eb1e28;
 
 
 .go_back{
-margin-top: -220px;
+position: relative;
+top: 40px;
 text-decoration: none;
 text-align: center;
 font-size: 22px;

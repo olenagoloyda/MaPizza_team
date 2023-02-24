@@ -50,9 +50,8 @@ margin-right: 5px;
 }
 
 .btn_container{
-margin-left: 50px;
-margin-top: 70px;
-width: 80%;
+margin-top: 110px;
+width: 100%;
 display: flex;
 justify-content: space-evenly;
 flex-wrap: wrap;
@@ -64,12 +63,14 @@ margin-top: 20px;
 width: max-content;
 min-width: 70px;
 text-align: center;
-font-size: 25px;
+font-size: 30px;
 text-decoration: none;
 color: black;
-padding: 15px 20px 10px 20px;
-height: 40px;
+padding: 5px 25px 10px 25px;
+height: 70px;
+line-height: 70px;
 border-radius: 20px;
+font-weight: 800;
 }
 
 .location_btn:hover{
