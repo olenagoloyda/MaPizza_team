@@ -2,36 +2,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@400;600;700&family=Overpass:wght@800&display=swap');
 
 body {
-width: 100%;
-height: 100%;
+width: 700px;
 font-family: 'Cuprum', sans-serif;
-overflow: hidden;
 margin-left: 50px;
+margin: 0 auto;
+background-color: #009246;
 }
 
-.location_body{
-background-color: #6b9efd15;
+.wrapper{
+     background-color: white;
+     padding-top: 20px;
+     border-radius: 20px;
+     height: 100vh;
 }
+
 
 header{
+margin-top: 10px;
 text-align: center;
-margin-bottom: 80px;
 }
+
+
 .logo_img{
 display: block;
 margin: 0 auto;
-height: 100px;
+height: 70px;
 }
 
 .header_h1{
-margin-top: 100px;
+margin-top: 50px;
 text-align: center;
-font-size: 55px;
+font-size: 57px;
 font-weight: 800;
 font-family: 'Overpass', sans-serif;
 }
 .header_span{
-font-size: 75px;
+font-size: 55px;
 }
 
 .green_color{
@@ -43,36 +49,34 @@ color:#D22730;
 margin-right: 5px;
 }
 
-main{
-margin-left: -10px;
-}
+.btn_container{
+margin-left: 50px;
+margin-top: 70px;
+width: 80%;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
 
-.index_h2{
-font-size: 55px;
-font-weight: 800;
-font-family: 'Overpass', sans-serif;
-margin-left: 60px;
 }
 
 .location_btn{
+margin-top: 20px;
+width: max-content;
+min-width: 70px;
 text-align: center;
 font-size: 25px;
 text-decoration: none;
 color: black;
-padding: 20px 25px 10px 25px;
+padding: 15px 20px 10px 20px;
 height: 40px;
 border-radius: 20px;
-border: 1px black solid;
 }
 
 .location_btn:hover{
-background-color: azure;
-}
-
-.btn_container{
-width: 93%;
-display: flex;
-justify-content: space-evenly;
+background-color: rgb(243, 226, 226);
+border: 1.3px solid black;
+transition-duration: 0.6s;
+transform: scale(1.1);
 }
 
 
@@ -83,54 +87,7 @@ background-color:#0da356;
 background-color:#eb1e28;
 }
 
-.location_h1{
-text-align: center;
-font-size: 75px;
-font-weight: 800;
-font-family: 'Overpass', sans-serif;
-}
-
-.data_update{
-display: block;
-margin-top: -90px;
-margin-right: 90px;
-text-align: left;
-}
-
-.results_container{
-margin-top: 80px;
-margin-right: 40px;
-display: flex;
-justify-content: center;
-gap: 50px;
-font-size: 25px;
-font-weight: 800;
-}
-
-.span_results{
-font-size: 28px;
-font-weight: 800;
-color: #eb1e28;
-}
-
-.managers_container{
-margin-top: 90px;
-display: flex;
-justify-content: center;
-gap: 90px;
-}
 
 
-.managers_btn{
-display: block;
-text-decoration: none;
-color: black;
-font-size: 45px;
-font-weight: 800;
-}
-
-.managers_btn:hover{
-color: #eb1e28;
-}
 
 
