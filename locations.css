@@ -60,10 +60,42 @@ line-height: 40px;
 }
 #myBar {
     position: absolute;
-    width: 40%;
+    width: 66%;
     height: 100%;
     background-color: green;
 }
+/* #myBarFranka {
+    position: absolute;
+    width: 66%;
+    height: 100%;
+    background-color: green;
+}
+#myBarArsen {
+    position: absolute;
+    width: 52%;
+    height: 100%;
+    background-color: green;
+}
+#myBarKytaiska {
+    position: absolute;
+    width: 87%;
+    height: 100%;
+    background-color: green;
+}
+#myBarMaloholoskivska {
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    background-color: green;
+}
+#myBarZaliznychna {
+    position: absolute;
+    width: 57%;
+    height: 100%;
+    background-color: green;
+} */
+
+
 #label {
     font-size: 15px;
     text-align: center; 
