@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "core-js": "^3.29.0"
   }
 }
