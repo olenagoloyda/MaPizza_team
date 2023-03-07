@@ -1,21 +1,19 @@
-let date = require('./index');
-
-const actualDate = new date;
+let date = 'Дані оновлено 05.03.2023'; 
 
 let datesOnPages = document.querySelectorAll('.data_update');
 
 datesOnPages.forEach(el => el.innerHTML = date);
 
-let  proceeds = "0%",
+let  proceeds = "12%",
      id = "#myBar",
      label = ".arsenProc",
-     name1 ="Машa Бойко"
-     name2 = "Оля Гриценюк"
-     ingridientsManager1 = 1,
-     ingridientsManager2 = 03,
+     name1 ="Машa Бойко",
+     name2 = "Оля Гриценюк",
+     ingridientsManager1 = 4,
+     ingridientsManager2 = 2,
      totalIngredients = ingridientsManager1 + ingridientsManager2,
-     sauceMan1 = 0,
-     sauceMan2 = 0,
+     sauceMan1 = 22,
+     sauceMan2 = 18,
      totalSauce = sauceMan1 + sauceMan2,
      teaMan1 = 0,
      teaMan2 = 0,
@@ -27,8 +25,8 @@ manager1Name.forEach(name => name.innerHTML = name1);
 let manager2Name = document.querySelectorAll('.manager2');
 manager2Name.forEach(name => name.innerHTML = name2);
 
-document.querySelector('.span_category11').textContent = ingridientsManager1;
-document.querySelector('.span_category12').textContent = ingridientsManager2;
+// document.querySelector('.span_category11').textContent = ingridientsManager1;
+// document.querySelector('.span_category12').textContent = ingridientsManager2;
 
 
 document.querySelector(id).style.width = proceeds;
