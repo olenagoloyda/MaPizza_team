@@ -1,0 +1,214 @@
+body {
+width: 700px;
+font-family: 'Cuprum', sans-serif;
+margin-left: 50px;
+margin: 0 auto;
+background-color: #009246;
+}
+
+
+
+.wrapper{
+     background-color: white;
+     padding-top: 5px;
+     border-radius: 20px;
+     height: 100vh;
+}
+
+header{
+margin-top: 5px;
+text-align: center;
+}
+
+.header_h1{
+margin-top: 20px;
+text-align: center;
+font-size: 44px;
+font-weight: 800;
+font-family: 'Overpass', sans-serif;
+}
+.header_span{
+font-size: 47px;
+}
+
+
+.green_color{
+color: #009246;
+
+}
+.red_color{
+color:#D22730;
+}
+
+@media(max-width:600px){
+     body{
+     max-width: 100%;
+     background-color: white;
+     }
+     .wrapper{
+     background-color: white;
+     padding-top: 20px;
+     border-radius: 0px;
+     height: 100vh;
+     max-width: 100%;
+     padding-bottom: 40px;
+     }
+     
+     .header_h1{
+     margin-top: 20px;
+     text-align: center;
+     font-size: 32px;
+     font-weight: 800;
+     font-family: 'Overpass', sans-serif;
+     }
+
+     .header_span{
+     font-size: 30px;
+     }
+
+     .btn_container{
+     margin-top: 10%;
+     padding-left: 15px;
+     margin: 0 auto;
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;;
+     }
+}
+.raiting_header{
+margin: 0 20px;
+}
+
+.raiting_menu{
+margin-top: 60px;
+width: 90%;
+display: flex;
+justify-content: space-between;
+list-style: none;
+font-size: 17px;
+font-weight: 500;
+margin-bottom: 30px;
+}
+
+.menu_manager{
+position: relative;
+right: 20px;
+}
+
+.menu_bilds{
+position: relative;
+left: 10px;
+}
+
+.menu_additionals{
+position: relative;
+left: 20px;
+}
+
+
+.managers{
+list-style: none;
+}
+.manager_data{
+list-style: none;
+width: 90%;
+display: flex;
+justify-content: space-between;
+font-weight: 500;
+margin-bottom: 10px;
+font-size: 17px;
+}
+
+.manager_name{
+position: relative;
+right: 60px;
+}
+
+.bilds{
+position: relative;
+right: 85px;
+}
+
+.deserts{
+position: relative;
+right: 70px;
+}
+.adds{
+position: relative;
+right: 44px;
+}
+.total{
+position: relative;
+right: 44px;
+}
+
+@media(max-width:600px){
+.raiting_menu{
+margin-top: 30px;
+width: 100%;
+display: flex;
+gap: 27px;
+justify-content: space-between;
+list-style: none;
+font-size: 12px;
+font-weight: 500;
+margin-bottom: 30px;
+padding: 0;
+}
+
+.menu_manager{
+margin-left: 0;
+position: relative;
+right: 0px;
+padding: 0;
+}
+.menu_bilds{
+position: relative;
+right:0px ;
+}
+
+.menu_deserts{
+position: relative;
+left: 20px;
+}
+
+.menu_total{
+position: relative;
+left: 15px;
+}
+
+.manager_data{
+list-style: none;
+width: 90%;
+display: flex;
+justify-content: space-between;
+font-weight: 500;
+margin-bottom: 10px;
+font-size: 12px;
+}
+
+.manager_name{
+position: relative;
+right: 60px;
+}
+
+.bilds{
+position: relative;
+right: 85px;
+}
+
+.deserts{
+position: relative;
+right: 70px;
+}
+.adds{
+position: relative;
+right: 44px;
+}
+.total{
+position: relative;
+right: 44px;
+}
+
+}
