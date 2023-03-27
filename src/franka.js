@@ -1,22 +1,22 @@
-let date = 'Дані оновлено 19.03.2023'; 
+let date = 'Дані оновлено 24.03.2023'; 
 
 let datesOnPages = document.querySelectorAll('.data_update');
 
 datesOnPages.forEach(el => el.innerHTML = date);
 
-let  proceeds = "58%",
+let  proceeds = "69%",
      id = "#myBar",
      label = ".frankaProceeds",
      name1 ="Настя Мельник"
      name2 = "Катя Панченко"
      ingridientsManager1 = 0,
-     ingridientsManager2 = 54,
+     ingridientsManager2 = 67,
      totalIngredients = ingridientsManager1 + ingridientsManager2,
      sauceMan1 = 0,
-     sauceMan2 = 210,
+     sauceMan2 = 235,
      totalSauce = sauceMan1 + sauceMan2,
      teaMan1 = 0,
-     teaMan2 = 115,
+     teaMan2 = 140,
      totalTea = teaMan1 + teaMan2;
      
 
