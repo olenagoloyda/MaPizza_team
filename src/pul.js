@@ -1,23 +1,23 @@
-let date = 'Дані оновлено 10.04.2023';   
+let date = 'Дані оновлено 19.04.2023';   
 
 let datesOnPages = document.querySelectorAll('.data_update');
 
 datesOnPages.forEach(el => el.innerHTML = date);
 
 
-let  proceeds = "34%",
+let  proceeds = "55%",
      id = "#myBar",
      label = ".pulProc",
      name1 ="Діана Камінечна",
      name2 = "Таня Фірчук",
      ingridientsManager1 = 0,
-     ingridientsManager2 = 4,
+     ingridientsManager2 = 12,
      totalIngredients = ingridientsManager1 + ingridientsManager2,
      sauceMan1 = 0,
      sauceMan2 = 0,
      totalSauce = sauceMan1 + sauceMan2,
      teaMan1 = 0,
-     teaMan2 = 16,
+     teaMan2 = 39,
      totalTea = teaMan1 + teaMan2;
      
 
